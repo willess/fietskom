@@ -1,5 +1,5 @@
 ﻿using System;
-namespace fietskom.Advertisements.Entities
+namespace wielerkom.Advertisements.Entities
 {
     public class Advertisement
     {
