@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'fietskom' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Account\" />
+    <Folder Include="Account\Controllers\" />
+    <Folder Include="Account\Repositories\" />
+    <Folder Include="Account\Services\" />
+    <Folder Include="Account\Models\" />
+    <Folder Include="Account\Entities\" />
+    <Folder Include="Advertisements\" />
+    <Folder Include="Advertisements\Controllers\" />
+    <Folder Include="Advertisements\Entities\" />
+    <Folder Include="Advertisements\Models\" />
+    <Folder Include="Advertisements\Repositories\" />
+    <Folder Include="Advertisements\Services\" />
+    <Folder Include="Advertisements\Context\" />
+  </ItemGroup>
+</Project>
